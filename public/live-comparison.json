@@ -1,0 +1,896 @@
+{
+  "updated_at": "2026-06-19T05:45:06.402Z",
+  "sources": {
+    "lighter": [
+      "mainnet.zklighter.elliot.ai/api/v1/orderBookDetails",
+      "mainnet.zklighter.elliot.ai/api/v1/exchangeMetrics?kind=open_interest",
+      "api.llama.fi/summary/fees/lighter",
+      "api.llama.fi/protocol/lighter",
+      "api.coingecko.com/api/v3/coins/lighter"
+    ],
+    "hyperliquid": [
+      "api.hyperliquid.xyz/info (metaAndAssetCtxs)",
+      "api.llama.fi/summary/fees/hyperliquid",
+      "api.llama.fi/protocol/hyperliquid",
+      "api.coingecko.com/api/v3/coins/hyperliquid"
+    ]
+  },
+  "valuation": {
+    "market_cap": {
+      "label": "Market Cap",
+      "lighter": 389128937,
+      "hyperliquid": 14777567772,
+      "format": "currency"
+    },
+    "fdv": {
+      "label": "FDV",
+      "lighter": 1556515750,
+      "hyperliquid": 63463192213,
+      "format": "currency"
+    },
+    "pf_mcap": {
+      "label": "PF (Market Cap)",
+      "lighter": 8.33130658486964,
+      "hyperliquid": 15.011197059313735,
+      "format": "ratio"
+    },
+    "pf_fdv": {
+      "label": "PF (FDV)",
+      "lighter": 33.325226382298844,
+      "hyperliquid": 64.46652784956336,
+      "format": "ratio"
+    },
+    "pe_mcap": {
+      "label": "PE (Market Cap)",
+      "lighter": 8.33130658486964,
+      "hyperliquid": 15.011197059313735,
+      "format": "ratio"
+    },
+    "pe_fdv": {
+      "label": "PE (FDV)",
+      "lighter": 33.325226382298844,
+      "hyperliquid": 64.46652784956336,
+      "format": "ratio"
+    }
+  },
+  "valuation_charts": {
+    "pf_mcap": [
+      {
+        "timestamp": 1779235200,
+        "lighter": null,
+        "hyperliquid": null
+      },
+      {
+        "timestamp": 1779321600,
+        "lighter": 9.753283333753473,
+        "hyperliquid": 19.004330488755404
+      },
+      {
+        "timestamp": 1779408000,
+        "lighter": 11.06121333013765,
+        "hyperliquid": 20.425002720708118
+      },
+      {
+        "timestamp": 1779494400,
+        "lighter": 9.066119875941817,
+        "hyperliquid": 19.163430078285646
+      },
+      {
+        "timestamp": 1779580800,
+        "lighter": 9.415316139184814,
+        "hyperliquid": 20.119666704940325
+      },
+      {
+        "timestamp": 1779667200,
+        "lighter": 9.816112334574758,
+        "hyperliquid": 21.388622571611357
+      },
+      {
+        "timestamp": 1779753600,
+        "lighter": 10.12242929457992,
+        "hyperliquid": 18.9324544340147
+      },
+      {
+        "timestamp": 1779840000,
+        "lighter": 8.987181610250543,
+        "hyperliquid": 18.234021751769482
+      },
+      {
+        "timestamp": 1779926400,
+        "lighter": 8.325704667730705,
+        "hyperliquid": 17.466538923206574
+      },
+      {
+        "timestamp": 1780012800,
+        "lighter": 8.681955921566912,
+        "hyperliquid": 18.625853021088652
+      },
+      {
+        "timestamp": 1780099200,
+        "lighter": 9.384567175696025,
+        "hyperliquid": 19.686768990443063
+      },
+      {
+        "timestamp": 1780185600,
+        "lighter": 10.20528726904635,
+        "hyperliquid": 20.81119496816326
+      },
+      {
+        "timestamp": 1780272000,
+        "lighter": 9.82133871318066,
+        "hyperliquid": 21.064397598106524
+      },
+      {
+        "timestamp": 1780358400,
+        "lighter": 9.11934013891606,
+        "hyperliquid": 20.363337286003805
+      },
+      {
+        "timestamp": 1780444800,
+        "lighter": 10.767535330528885,
+        "hyperliquid": 18.801029554456612
+      },
+      {
+        "timestamp": 1780531200,
+        "lighter": 10.949001483588685,
+        "hyperliquid": 19.279404405315795
+      },
+      {
+        "timestamp": 1780617600,
+        "lighter": 8.630235394535143,
+        "hyperliquid": 15.850188931017328
+      },
+      {
+        "timestamp": 1780704000,
+        "lighter": 8.797158525196622,
+        "hyperliquid": 14.618761354413802
+      },
+      {
+        "timestamp": 1780790400,
+        "lighter": 8.161305904525737,
+        "hyperliquid": 13.854028788812522
+      },
+      {
+        "timestamp": 1780876800,
+        "lighter": 7.851139482757486,
+        "hyperliquid": 14.233938709327925
+      },
+      {
+        "timestamp": 1780963200,
+        "lighter": 8.047966184686656,
+        "hyperliquid": 14.96892145934261
+      },
+      {
+        "timestamp": 1781049600,
+        "lighter": 8.654402920629234,
+        "hyperliquid": 13.488217514694389
+      },
+      {
+        "timestamp": 1781136000,
+        "lighter": 7.596321366455253,
+        "hyperliquid": 12.3493808414973
+      },
+      {
+        "timestamp": 1781222400,
+        "lighter": 8.494859940958445,
+        "hyperliquid": 13.654709390098201
+      },
+      {
+        "timestamp": 1781308800,
+        "lighter": 8.502371806144414,
+        "hyperliquid": 14.027775629276034
+      },
+      {
+        "timestamp": 1781395200,
+        "lighter": 9.108677301703901,
+        "hyperliquid": 14.467153380595418
+      },
+      {
+        "timestamp": 1781481600,
+        "lighter": 9.234112135687019,
+        "hyperliquid": 14.98204086505052
+      },
+      {
+        "timestamp": 1781568000,
+        "lighter": 9.275540250043308,
+        "hyperliquid": 15.424279064892408
+      },
+      {
+        "timestamp": 1781654400,
+        "lighter": 9.402465446930774,
+        "hyperliquid": 16.826688337539505
+      },
+      {
+        "timestamp": 1781740800,
+        "lighter": 9.367542794855954,
+        "hyperliquid": 16.08595385591661
+      }
+    ],
+    "pf_fdv": [
+      {
+        "timestamp": 1779235200,
+        "lighter": null,
+        "hyperliquid": null
+      },
+      {
+        "timestamp": 1779321600,
+        "lighter": 39.01313338514269,
+        "hyperliquid": 81.61528996486746
+      },
+      {
+        "timestamp": 1779408000,
+        "lighter": 44.24485337740174,
+        "hyperliquid": 87.71645602406967
+      },
+      {
+        "timestamp": 1779494400,
+        "lighter": 36.26447955036426,
+        "hyperliquid": 82.29855313693685
+      },
+      {
+        "timestamp": 1779580800,
+        "lighter": 37.661264605131,
+        "hyperliquid": 86.40517134196257
+      },
+      {
+        "timestamp": 1779667200,
+        "lighter": 39.264449388750755,
+        "hyperliquid": 91.85478194898998
+      },
+      {
+        "timestamp": 1779753600,
+        "lighter": 40.489717230345775,
+        "hyperliquid": 81.30661373695908
+      },
+      {
+        "timestamp": 1779840000,
+        "lighter": 35.94872648719345,
+        "hyperliquid": 78.3071507505565
+      },
+      {
+        "timestamp": 1779926400,
+        "lighter": 33.30281871371431,
+        "hyperliquid": 75.01114757731763
+      },
+      {
+        "timestamp": 1780012800,
+        "lighter": 34.72782373089016,
+        "hyperliquid": 79.98989472734158
+      },
+      {
+        "timestamp": 1780099200,
+        "lighter": 37.53826875101782,
+        "hyperliquid": 84.54606493909681
+      },
+      {
+        "timestamp": 1780185600,
+        "lighter": 40.82114912863735,
+        "hyperliquid": 89.37498286756382
+      },
+      {
+        "timestamp": 1780272000,
+        "lighter": 39.28535490320122,
+        "hyperliquid": 90.46237745244088
+      },
+      {
+        "timestamp": 1780358400,
+        "lighter": 36.47736060253477,
+        "hyperliquid": 87.45162994470948
+      },
+      {
+        "timestamp": 1780444800,
+        "lighter": 43.070141377457276,
+        "hyperliquid": 80.74220134368494
+      },
+      {
+        "timestamp": 1780531200,
+        "lighter": 43.796005990629155,
+        "hyperliquid": 82.79661216272818
+      },
+      {
+        "timestamp": 1780617600,
+        "lighter": 34.52094162249726,
+        "hyperliquid": 68.06963109636129
+      },
+      {
+        "timestamp": 1780704000,
+        "lighter": 35.1886341460011,
+        "hyperliquid": 62.7811880862433
+      },
+      {
+        "timestamp": 1780790400,
+        "lighter": 32.64522366004948,
+        "hyperliquid": 59.49699608989515
+      },
+      {
+        "timestamp": 1780876800,
+        "lighter": 31.404557971382324,
+        "hyperliquid": 61.12854308607797
+      },
+      {
+        "timestamp": 1780963200,
+        "lighter": 32.191864780110635,
+        "hyperliquid": 64.28497263233938
+      },
+      {
+        "timestamp": 1781049600,
+        "lighter": 34.61761172699784,
+        "hyperliquid": 57.92599661547355
+      },
+      {
+        "timestamp": 1781136000,
+        "lighter": 30.385285504863706,
+        "hyperliquid": 53.03519105088918
+      },
+      {
+        "timestamp": 1781222400,
+        "lighter": 33.97943980749468,
+        "hyperliquid": 58.64100642315484
+      },
+      {
+        "timestamp": 1781308800,
+        "lighter": 34.009487268277155,
+        "hyperliquid": 60.24316280033514
+      },
+      {
+        "timestamp": 1781395200,
+        "lighter": 36.43470925363133,
+        "hyperliquid": 62.130098128010104
+      },
+      {
+        "timestamp": 1781481600,
+        "lighter": 36.93644859020849,
+        "hyperliquid": 64.34131474350458
+      },
+      {
+        "timestamp": 1781568000,
+        "lighter": 37.10216104784658,
+        "hyperliquid": 66.24053444687655
+      },
+      {
+        "timestamp": 1781654400,
+        "lighter": 37.6098618360488,
+        "hyperliquid": 72.26326908118713
+      },
+      {
+        "timestamp": 1781740800,
+        "lighter": 37.47017122757003,
+        "hyperliquid": 69.08213836256492
+      }
+    ],
+    "pe_mcap": [
+      {
+        "timestamp": 1779235200,
+        "lighter": null,
+        "hyperliquid": null
+      },
+      {
+        "timestamp": 1779321600,
+        "lighter": 9.753283333753473,
+        "hyperliquid": 19.004330488755404
+      },
+      {
+        "timestamp": 1779408000,
+        "lighter": 11.06121333013765,
+        "hyperliquid": 20.425002720708118
+      },
+      {
+        "timestamp": 1779494400,
+        "lighter": 9.066119875941817,
+        "hyperliquid": 19.163430078285646
+      },
+      {
+        "timestamp": 1779580800,
+        "lighter": 9.415316139184814,
+        "hyperliquid": 20.119666704940325
+      },
+      {
+        "timestamp": 1779667200,
+        "lighter": 9.816112334574758,
+        "hyperliquid": 21.388622571611357
+      },
+      {
+        "timestamp": 1779753600,
+        "lighter": 10.12242929457992,
+        "hyperliquid": 18.9324544340147
+      },
+      {
+        "timestamp": 1779840000,
+        "lighter": 8.987181610250543,
+        "hyperliquid": 18.234021751769482
+      },
+      {
+        "timestamp": 1779926400,
+        "lighter": 8.325704667730705,
+        "hyperliquid": 17.466538923206574
+      },
+      {
+        "timestamp": 1780012800,
+        "lighter": 8.681955921566912,
+        "hyperliquid": 18.625853021088652
+      },
+      {
+        "timestamp": 1780099200,
+        "lighter": 9.384567175696025,
+        "hyperliquid": 19.686768990443063
+      },
+      {
+        "timestamp": 1780185600,
+        "lighter": 10.20528726904635,
+        "hyperliquid": 20.81119496816326
+      },
+      {
+        "timestamp": 1780272000,
+        "lighter": 9.82133871318066,
+        "hyperliquid": 21.064397598106524
+      },
+      {
+        "timestamp": 1780358400,
+        "lighter": 9.11934013891606,
+        "hyperliquid": 20.363337286003805
+      },
+      {
+        "timestamp": 1780444800,
+        "lighter": 10.767535330528885,
+        "hyperliquid": 18.801029554456612
+      },
+      {
+        "timestamp": 1780531200,
+        "lighter": 10.949001483588685,
+        "hyperliquid": 19.279404405315795
+      },
+      {
+        "timestamp": 1780617600,
+        "lighter": 8.630235394535143,
+        "hyperliquid": 15.850188931017328
+      },
+      {
+        "timestamp": 1780704000,
+        "lighter": 8.797158525196622,
+        "hyperliquid": 14.618761354413802
+      },
+      {
+        "timestamp": 1780790400,
+        "lighter": 8.161305904525737,
+        "hyperliquid": 13.854028788812522
+      },
+      {
+        "timestamp": 1780876800,
+        "lighter": 7.851139482757486,
+        "hyperliquid": 14.233938709327925
+      },
+      {
+        "timestamp": 1780963200,
+        "lighter": 8.047966184686656,
+        "hyperliquid": 14.96892145934261
+      },
+      {
+        "timestamp": 1781049600,
+        "lighter": 8.654402920629234,
+        "hyperliquid": 13.488217514694389
+      },
+      {
+        "timestamp": 1781136000,
+        "lighter": 7.596321366455253,
+        "hyperliquid": 12.3493808414973
+      },
+      {
+        "timestamp": 1781222400,
+        "lighter": 8.494859940958445,
+        "hyperliquid": 13.654709390098201
+      },
+      {
+        "timestamp": 1781308800,
+        "lighter": 8.502371806144414,
+        "hyperliquid": 14.027775629276034
+      },
+      {
+        "timestamp": 1781395200,
+        "lighter": 9.108677301703901,
+        "hyperliquid": 14.467153380595418
+      },
+      {
+        "timestamp": 1781481600,
+        "lighter": 9.234112135687019,
+        "hyperliquid": 14.98204086505052
+      },
+      {
+        "timestamp": 1781568000,
+        "lighter": 9.275540250043308,
+        "hyperliquid": 15.424279064892408
+      },
+      {
+        "timestamp": 1781654400,
+        "lighter": 9.402465446930774,
+        "hyperliquid": 16.826688337539505
+      },
+      {
+        "timestamp": 1781740800,
+        "lighter": 9.367542794855954,
+        "hyperliquid": 16.08595385591661
+      }
+    ],
+    "pe_fdv": [
+      {
+        "timestamp": 1779235200,
+        "lighter": null,
+        "hyperliquid": null
+      },
+      {
+        "timestamp": 1779321600,
+        "lighter": 39.01313338514269,
+        "hyperliquid": 81.61528996486746
+      },
+      {
+        "timestamp": 1779408000,
+        "lighter": 44.24485337740174,
+        "hyperliquid": 87.71645602406967
+      },
+      {
+        "timestamp": 1779494400,
+        "lighter": 36.26447955036426,
+        "hyperliquid": 82.29855313693685
+      },
+      {
+        "timestamp": 1779580800,
+        "lighter": 37.661264605131,
+        "hyperliquid": 86.40517134196257
+      },
+      {
+        "timestamp": 1779667200,
+        "lighter": 39.264449388750755,
+        "hyperliquid": 91.85478194898998
+      },
+      {
+        "timestamp": 1779753600,
+        "lighter": 40.489717230345775,
+        "hyperliquid": 81.30661373695908
+      },
+      {
+        "timestamp": 1779840000,
+        "lighter": 35.94872648719345,
+        "hyperliquid": 78.3071507505565
+      },
+      {
+        "timestamp": 1779926400,
+        "lighter": 33.30281871371431,
+        "hyperliquid": 75.01114757731763
+      },
+      {
+        "timestamp": 1780012800,
+        "lighter": 34.72782373089016,
+        "hyperliquid": 79.98989472734158
+      },
+      {
+        "timestamp": 1780099200,
+        "lighter": 37.53826875101782,
+        "hyperliquid": 84.54606493909681
+      },
+      {
+        "timestamp": 1780185600,
+        "lighter": 40.82114912863735,
+        "hyperliquid": 89.37498286756382
+      },
+      {
+        "timestamp": 1780272000,
+        "lighter": 39.28535490320122,
+        "hyperliquid": 90.46237745244088
+      },
+      {
+        "timestamp": 1780358400,
+        "lighter": 36.47736060253477,
+        "hyperliquid": 87.45162994470948
+      },
+      {
+        "timestamp": 1780444800,
+        "lighter": 43.070141377457276,
+        "hyperliquid": 80.74220134368494
+      },
+      {
+        "timestamp": 1780531200,
+        "lighter": 43.796005990629155,
+        "hyperliquid": 82.79661216272818
+      },
+      {
+        "timestamp": 1780617600,
+        "lighter": 34.52094162249726,
+        "hyperliquid": 68.06963109636129
+      },
+      {
+        "timestamp": 1780704000,
+        "lighter": 35.1886341460011,
+        "hyperliquid": 62.7811880862433
+      },
+      {
+        "timestamp": 1780790400,
+        "lighter": 32.64522366004948,
+        "hyperliquid": 59.49699608989515
+      },
+      {
+        "timestamp": 1780876800,
+        "lighter": 31.404557971382324,
+        "hyperliquid": 61.12854308607797
+      },
+      {
+        "timestamp": 1780963200,
+        "lighter": 32.191864780110635,
+        "hyperliquid": 64.28497263233938
+      },
+      {
+        "timestamp": 1781049600,
+        "lighter": 34.61761172699784,
+        "hyperliquid": 57.92599661547355
+      },
+      {
+        "timestamp": 1781136000,
+        "lighter": 30.385285504863706,
+        "hyperliquid": 53.03519105088918
+      },
+      {
+        "timestamp": 1781222400,
+        "lighter": 33.97943980749468,
+        "hyperliquid": 58.64100642315484
+      },
+      {
+        "timestamp": 1781308800,
+        "lighter": 34.009487268277155,
+        "hyperliquid": 60.24316280033514
+      },
+      {
+        "timestamp": 1781395200,
+        "lighter": 36.43470925363133,
+        "hyperliquid": 62.130098128010104
+      },
+      {
+        "timestamp": 1781481600,
+        "lighter": 36.93644859020849,
+        "hyperliquid": 64.34131474350458
+      },
+      {
+        "timestamp": 1781568000,
+        "lighter": 37.10216104784658,
+        "hyperliquid": 66.24053444687655
+      },
+      {
+        "timestamp": 1781654400,
+        "lighter": 37.6098618360488,
+        "hyperliquid": 72.26326908118713
+      },
+      {
+        "timestamp": 1781740800,
+        "lighter": 37.47017122757003,
+        "hyperliquid": 69.08213836256492
+      }
+    ]
+  },
+  "headline": [
+    {
+      "label": "24h Volume",
+      "lighter": 1867586317.9058578,
+      "hyperliquid": 5971082926.059909,
+      "format": "currency"
+    },
+    {
+      "label": "Open Interest",
+      "lighter": 785852252.16,
+      "hyperliquid": 6045872000.72364,
+      "format": "currency"
+    },
+    {
+      "label": "24h Fees",
+      "lighter": 121641,
+      "hyperliquid": 2788268,
+      "format": "currency"
+    },
+    {
+      "label": "7d Fees",
+      "lighter": 709110,
+      "hyperliquid": 16212774,
+      "format": "currency"
+    },
+    {
+      "label": "30d Fees",
+      "lighter": 3892236,
+      "hyperliquid": 82036361,
+      "format": "currency"
+    },
+    {
+      "label": "All-time Fees",
+      "lighter": 67784755,
+      "hyperliquid": 1368425995,
+      "format": "currency"
+    },
+    {
+      "label": "TVL",
+      "lighter": 507056458,
+      "hyperliquid": 6001180884,
+      "format": "currency"
+    },
+    {
+      "label": "Active Markets",
+      "lighter": 198,
+      "hyperliquid": 230,
+      "format": "number"
+    },
+    {
+      "label": "Total Users",
+      "lighter": null,
+      "hyperliquid": null,
+      "format": "compact"
+    },
+    {
+      "label": "Total Deposits",
+      "lighter": null,
+      "hyperliquid": null,
+      "format": "currency"
+    },
+    {
+      "label": "Total Withdrawals",
+      "lighter": null,
+      "hyperliquid": null,
+      "format": "currency"
+    },
+    {
+      "label": "Total Notional Liquidated",
+      "lighter": null,
+      "hyperliquid": null,
+      "format": "currency"
+    }
+  ],
+  "volume_chart": [
+    {
+      "timestamp": 1779235200,
+      "lighter": 78725,
+      "hyperliquid": 2098535
+    },
+    {
+      "timestamp": 1779321600,
+      "lighter": 114584,
+      "hyperliquid": 2559617
+    },
+    {
+      "timestamp": 1779408000,
+      "lighter": 105752,
+      "hyperliquid": 2432788
+    },
+    {
+      "timestamp": 1779494400,
+      "lighter": 153012,
+      "hyperliquid": 2302441
+    },
+    {
+      "timestamp": 1779580800,
+      "lighter": 66148,
+      "hyperliquid": 2067517
+    },
+    {
+      "timestamp": 1779667200,
+      "lighter": 62412,
+      "hyperliquid": 1554901
+    },
+    {
+      "timestamp": 1779753600,
+      "lighter": 100575,
+      "hyperliquid": 2405744
+    },
+    {
+      "timestamp": 1779840000,
+      "lighter": 91249,
+      "hyperliquid": 2351344
+    },
+    {
+      "timestamp": 1779926400,
+      "lighter": 129203,
+      "hyperliquid": 2533420
+    },
+    {
+      "timestamp": 1780012800,
+      "lighter": 108990,
+      "hyperliquid": 2316508
+    },
+    {
+      "timestamp": 1780099200,
+      "lighter": 49069,
+      "hyperliquid": 1188147
+    },
+    {
+      "timestamp": 1780185600,
+      "lighter": 60409,
+      "hyperliquid": 1666096
+    },
+    {
+      "timestamp": 1780272000,
+      "lighter": 152163,
+      "hyperliquid": 3671981
+    },
+    {
+      "timestamp": 1780358400,
+      "lighter": 210964,
+      "hyperliquid": 4797328
+    },
+    {
+      "timestamp": 1780444800,
+      "lighter": 204392,
+      "hyperliquid": 4284474
+    },
+    {
+      "timestamp": 1780531200,
+      "lighter": 364762,
+      "hyperliquid": 5453452
+    },
+    {
+      "timestamp": 1780617600,
+      "lighter": 336016,
+      "hyperliquid": 6606830
+    },
+    {
+      "timestamp": 1780704000,
+      "lighter": 96786,
+      "hyperliquid": 2193726
+    },
+    {
+      "timestamp": 1780790400,
+      "lighter": 202272,
+      "hyperliquid": 2492130
+    },
+    {
+      "timestamp": 1780876800,
+      "lighter": 128395,
+      "hyperliquid": 2760622
+    },
+    {
+      "timestamp": 1780963200,
+      "lighter": 124458,
+      "hyperliquid": 2833325
+    },
+    {
+      "timestamp": 1781049600,
+      "lighter": 130591,
+      "hyperliquid": 2809748
+    },
+    {
+      "timestamp": 1781136000,
+      "lighter": 112199,
+      "hyperliquid": 2442913
+    },
+    {
+      "timestamp": 1781222400,
+      "lighter": 89555,
+      "hyperliquid": 2139941
+    },
+    {
+      "timestamp": 1781308800,
+      "lighter": 39191,
+      "hyperliquid": 1040834
+    },
+    {
+      "timestamp": 1781395200,
+      "lighter": 67358,
+      "hyperliquid": 1743786
+    },
+    {
+      "timestamp": 1781481600,
+      "lighter": 115357,
+      "hyperliquid": 2632150
+    },
+    {
+      "timestamp": 1781568000,
+      "lighter": 114162,
+      "hyperliquid": 2786746
+    },
+    {
+      "timestamp": 1781654400,
+      "lighter": 161846,
+      "hyperliquid": 3081049
+    },
+    {
+      "timestamp": 1781740800,
+      "lighter": 121641,
+      "hyperliquid": 2788268
+    }
+  ],
+  "notes": [
+    "PF = valuation / trailing 30d annualized fees. PE = valuation / trailing 30d annualized revenue (fees used if revenue unavailable).",
+    "PE/PF line charts use CoinGecko daily market cap and DefiLlama fee history. FDV trend scales market cap by current FDV/MC ratio."
+  ]
+}

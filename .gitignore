@@ -1,0 +1,28 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+
+# local env
+.env
+.env.*
+!.env.example
+
+# logs
+*.log
+npm-debug.log*
+
+# editor / OS
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# cursor / agent terminals (local only)
+terminals/
+agent-tools/
+
+# duplicate local asset (served from public/assets)
+donationwallet.jpeg

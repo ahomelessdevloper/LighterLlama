@@ -1,0 +1,3 @@
+/lighter-api/*  https://mainnet.zklighter.elliot.ai/api/v1/:splat  200
+/hyperliquid-api/*  https://api.hyperliquid.xyz/:splat  200
+/coingecko-api/*  https://api.coingecko.com/api/v3/:splat  200

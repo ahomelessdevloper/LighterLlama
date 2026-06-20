@@ -1,0 +1,5 @@
+# https://lighterscan.netlify.app/
+User-agent: *
+Allow: /
+
+Sitemap: https://lighterscan.netlify.app/sitemap.xml

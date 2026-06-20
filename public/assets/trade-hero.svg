@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 280" fill="none" role="img" aria-label="Trade on Lighter">
+  <defs>
+    <linearGradient id="tbg" x1="0" y1="0" x2="480" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0a0b12"/>
+      <stop offset="0.5" stop-color="#0d1218"/>
+      <stop offset="1" stop-color="#0a0b12"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="80" y1="40" x2="400" y2="240" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22d3ee" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#4ade80" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="cta" x1="160" y1="170" x2="320" y2="210" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#a5f3fc"/>
+      <stop offset="0.5" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#4ade80"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="280" rx="20" fill="url(#tbg)"/>
+  <ellipse cx="240" cy="130" rx="200" ry="120" fill="url(#beam)"/>
+  <rect x="100" y="52" width="280" height="176" rx="20" fill="#10131b" stroke="#24263a" stroke-width="1.5"/>
+  <path d="M140 168h56v8H140zm72-24h56v8h-56zm72 24h56v8h-56z" fill="#22d3ee" opacity="0.35"/>
+  <path d="M148 120l28 36 20-16 36 48" stroke="#4ade80" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <circle cx="148" cy="120" r="5" fill="#22d3ee"/>
+  <circle cx="232" cy="188" r="5" fill="#4ade80"/>
+  <rect x="156" y="198" width="168" height="22" rx="11" fill="url(#cta)" opacity="0.9"/>
+  <text x="240" y="213" text-anchor="middle" fill="#0a0b0f" font-family="ui-sans-serif,system-ui,sans-serif" font-size="11" font-weight="700">Trade on Lighter</text>
+  <text x="240" y="92" text-anchor="middle" fill="#f4f4f5" font-family="ui-sans-serif,system-ui,sans-serif" font-size="20" font-weight="600">Perps · Spot · Fast</text>
+</svg>

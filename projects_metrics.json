@@ -1,0 +1,128 @@
+{
+  "endpoint": "https://api.tokenterminal.com/v2/projects/{project_id}/metrics",
+  "query_defaults": {
+    "start": "2026-05-20",
+    "end": "2026-06-19",
+    "metric_ids": "all available metrics when omitted"
+  },
+  "source": "availability_only",
+  "projects": [
+    {
+      "project_id": "lighter",
+      "name": "Lighter",
+      "chains": [
+        "arbitrum",
+        "ethereum",
+        "lighter",
+        "optimism",
+        "polygon"
+      ],
+      "earliest_metric_timestamp": "2023-10-12",
+      "metric_availability": [
+        "fees",
+        "fees_supply_side",
+        "market_cap_circulating",
+        "market_cap_fully_diluted",
+        "net_deposits",
+        "notional_trading_volume",
+        "pf_circulating",
+        "pf_fully_diluted",
+        "price",
+        "ps_circulating",
+        "ps_fully_diluted",
+        "revenue",
+        "take_rate",
+        "token_supply_circulating",
+        "token_trading_volume",
+        "token_turnover_circulating",
+        "token_turnover_fully_diluted",
+        "tokenholders",
+        "trade_count",
+        "tvl"
+      ],
+      "metrics_url": "https://api.tokenterminal.com/v2/projects/lighter/metrics",
+      "metrics_error": {
+        "status": 403,
+        "body": "TOKEN_TERMINAL_API_KEY not set. Historical metrics require Bearer auth."
+      }
+    },
+    {
+      "project_id": "hyperliquid",
+      "name": "Hyperliquid",
+      "chains": [
+        "arbitrum",
+        "hypercore",
+        "hyperevm",
+        "hyperliquid"
+      ],
+      "earliest_metric_timestamp": "2024-11-28",
+      "metric_availability": [
+        "active_addresses_daily",
+        "active_addresses_monthly",
+        "active_addresses_weekly",
+        "active_developers",
+        "afpu",
+        "arpu",
+        "block_time",
+        "bridge_deposits",
+        "code_commits",
+        "fees",
+        "fees_supply_side",
+        "market_cap_circulating",
+        "market_cap_fully_diluted",
+        "notional_trading_volume",
+        "open_interest",
+        "pf_circulating",
+        "pf_fully_diluted",
+        "price",
+        "ps_circulating",
+        "ps_fully_diluted",
+        "revenue",
+        "take_rate",
+        "token_supply_circulating",
+        "token_supply_maximum",
+        "token_trading_volume",
+        "token_turnover_circulating",
+        "token_turnover_fully_diluted",
+        "trading_volume",
+        "transaction_count",
+        "transaction_fee_average",
+        "transactions_per_second",
+        "user_dau",
+        "user_mau",
+        "user_wau"
+      ],
+      "metrics_url": "https://api.tokenterminal.com/v2/projects/hyperliquid/metrics",
+      "metrics_error": {
+        "status": 403,
+        "body": "TOKEN_TERMINAL_API_KEY not set. Historical metrics require Bearer auth."
+      }
+    },
+    {
+      "project_id": "aster",
+      "name": "Aster",
+      "chains": [
+        "bsc",
+        "offchain"
+      ],
+      "earliest_metric_timestamp": "2022-01-17",
+      "metric_availability": [
+        "market_cap_circulating",
+        "market_cap_fully_diluted",
+        "notional_trading_volume",
+        "outstanding_supply",
+        "price",
+        "token_supply_circulating",
+        "token_trading_volume",
+        "token_turnover_circulating",
+        "token_turnover_fully_diluted",
+        "tokenholders"
+      ],
+      "metrics_url": "https://api.tokenterminal.com/v2/projects/aster/metrics",
+      "metrics_error": {
+        "status": 403,
+        "body": "TOKEN_TERMINAL_API_KEY not set. Historical metrics require Bearer auth."
+      }
+    }
+  ]
+}

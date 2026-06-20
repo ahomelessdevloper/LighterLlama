@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="28" viewBox="0 0 140 28" fill="none">
+  <defs>
+    <linearGradient id="bm-llama" x1="78" y1="8" x2="140" y2="22" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#a5f3fc"/>
+      <stop stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0.5" y="2.5" width="23" height="23" rx="7" fill="#0c0e14" stroke="#22d3ee" stroke-opacity="0.28" stroke-width="1"/>
+  <g transform="translate(12 14) skewX(-11)">
+    <rect x="-5.4" y="-7" width="3.6" height="14" rx="0.45" fill="#fff"/>
+    <rect x="0.9" y="-0.8" width="3.6" height="7" rx="0.45" fill="#fff"/>
+  </g>
+
+  <text x="32" y="19" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="13" font-weight="600" letter-spacing="-0.03em">
+    <tspan fill="#e4e4e7">Lighter</tspan><tspan fill="url(#bm-llama)">Llama</tspan>
+  </text>
+</svg>

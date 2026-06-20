@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" fill="none" role="img" aria-label="Support LighterLlama">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="480" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0a0b12"/>
+      <stop offset="0.45" stop-color="#0f1419"/>
+      <stop offset="1" stop-color="#0a0b12"/>
+    </linearGradient>
+    <linearGradient id="glow-cyan" x1="120" y1="40" x2="360" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22d3ee" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="glow-green" x1="300" y1="60" x2="120" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4ade80" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#4ade80" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="card" x1="140" y1="88" x2="340" y2="232" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#151922"/>
+      <stop offset="1" stop-color="#10131b"/>
+    </linearGradient>
+    <linearGradient id="heart" x1="200" y1="118" x2="280" y2="198" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#4ade80"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="320" rx="20" fill="url(#bg)"/>
+  <ellipse cx="180" cy="120" rx="160" ry="120" fill="url(#glow-cyan)"/>
+  <ellipse cx="300" cy="200" rx="150" ry="110" fill="url(#glow-green)"/>
+  <rect x="118" y="78" width="244" height="164" rx="22" fill="url(#card)" stroke="#24263a" stroke-width="1.5"/>
+  <rect x="118" y="78" width="244" height="164" rx="22" fill="none" stroke="url(#heart)" stroke-opacity="0.25" stroke-width="1"/>
+  <path d="M240 118c-18-22-52-10-52 16 0 24 52 52 52 52s52-28 52-52c0-26-34-38-52-16z" fill="url(#heart)" opacity="0.95"/>
+  <circle cx="168" cy="214" r="22" fill="#1a1d28" stroke="#30354a" stroke-width="1.2"/>
+  <circle cx="168" cy="214" r="10" fill="#627eea"/>
+  <text x="168" y="248" text-anchor="middle" fill="#94a3b8" font-family="ui-sans-serif,system-ui,sans-serif" font-size="11" font-weight="600">ETH</text>
+  <circle cx="312" cy="214" r="22" fill="#1a1d28" stroke="#30354a" stroke-width="1.2"/>
+  <circle cx="312" cy="214" r="10" fill="#22d3ee"/>
+  <text x="312" y="248" text-anchor="middle" fill="#94a3b8" font-family="ui-sans-serif,system-ui,sans-serif" font-size="11" font-weight="600">LIT</text>
+  <rect x="156" y="168" width="168" height="28" rx="8" fill="#0d1117" stroke="#2a2d42"/>
+  <text x="240" y="187" text-anchor="middle" fill="#e2e8f0" font-family="ui-monospace,monospace" font-size="10">0x85a7…eb669</text>
+  <text x="240" y="108" text-anchor="middle" fill="#f4f4f5" font-family="ui-sans-serif,system-ui,sans-serif" font-size="18" font-weight="600">Support the project</text>
+</svg>

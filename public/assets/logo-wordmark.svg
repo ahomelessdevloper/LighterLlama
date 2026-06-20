@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="184" height="36" viewBox="0 0 184 36" fill="none">
+  <defs>
+    <linearGradient id="wm-rim" x1="4" y1="4" x2="30" y2="32" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67e8f9" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#0891b2" stop-opacity="0.22"/>
+    </linearGradient>
+    <linearGradient id="wm-llama" x1="108" y1="10" x2="184" y2="26" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67e8f9"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0.5" y="2.5" width="31" height="31" rx="10" fill="#0c0e14"/>
+  <rect x="0.5" y="2.5" width="31" height="31" rx="10" stroke="url(#wm-rim)" stroke-width="1"/>
+  <g transform="translate(16 18) skewX(-11)">
+    <rect x="-7.2" y="-9.2" width="4.8" height="18.4" rx="0.55" fill="#fff"/>
+    <rect x="1.2" y="-1" width="4.8" height="9.2" rx="0.55" fill="#fff"/>
+  </g>
+
+  <text x="42" y="23.5" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="17" font-weight="600" letter-spacing="-0.04em">
+    <tspan fill="#f4f4f5">Lighter</tspan><tspan fill="url(#wm-llama)">Llama</tspan>
+  </text>
+</svg>

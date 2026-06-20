@@ -1,0 +1,244 @@
+{
+  "source": "explorer_fallback",
+  "projects": [
+    {
+      "name": "Lighter",
+      "project_id": "lighter",
+      "coingecko_id": null,
+      "symbol": "LIT",
+      "url": "https://api.tokenterminal.com/v2/projects/lighter/metrics",
+      "is_archived": false,
+      "archived_reason": null,
+      "maintenance_reason": null,
+      "products": [],
+      "chains": [
+        "arbitrum",
+        "ethereum",
+        "lighter",
+        "optimism",
+        "polygon"
+      ],
+      "market_sectors": [
+        {
+          "name": "Derivative exchanges",
+          "id": "derivatives"
+        }
+      ],
+      "links": [
+        {
+          "title": "github",
+          "url": "https://github.com/elliottech/lighter-v2-core"
+        },
+        {
+          "title": "twitter",
+          "url": "https://twitter.com/Lighter_xyz"
+        },
+        {
+          "title": "discord",
+          "url": "https://discord.gg/7G6av5rZ"
+        },
+        {
+          "title": "website",
+          "url": "https://lighter.xyz/"
+        }
+      ],
+      "price_data": {
+        "latest": {
+          "value": 1.747859,
+          "date": null
+        },
+        "ath": {
+          "value": 3.102311,
+          "date": "2026-01-07T00:00:00.000Z"
+        },
+        "atl": {
+          "value": 0.807351,
+          "date": "2026-03-30T00:00:00.000Z"
+        }
+      },
+      "business_model": {
+        "project_id": "lighter",
+        "fees_label": "Trading fees charged to takers",
+        "fees_value": "100",
+        "expense_label": null,
+        "expense_value": null,
+        "revenue_label": "Protocol's share of trading fees",
+        "revenue_value": "100",
+        "protocol_label": "App-specific zk-rollup for order book trading",
+        "demand_side_label": "Takers",
+        "supply_side_label": "Makers",
+        "expense_side_label": null,
+        "supply_side_fees_label": "Makers' share of fees",
+        "supply_side_fees_value": "0"
+      },
+      "description_who": "Lighter team and investors own and govern the protocol. Lighter's investors include a16z, Lightspeed, Coatue, etc.",
+      "description_what": "Lighter is an app-specific zk-rollup (L2) purpose-built for order book trading. It operates its own chain with a custom execution environment, settling to Ethereum. The protocol supports perpetual futures and spot markets with sub-second finality and zero MEV.",
+      "description_how": "Lighter generates revenue through trading fees charged to takers on its on-chain order book. The protocol retains all fees as revenue.",
+      "tier": "standard",
+      "flattened_tags": [
+        "blockchains",
+        "blockchains-l2",
+        "derivatives",
+        "exchange"
+      ]
+    },
+    {
+      "name": "Hyperliquid",
+      "project_id": "hyperliquid",
+      "coingecko_id": null,
+      "symbol": "HYPE",
+      "url": "https://api.tokenterminal.com/v2/projects/hyperliquid/metrics",
+      "is_archived": false,
+      "archived_reason": null,
+      "maintenance_reason": null,
+      "products": [],
+      "chains": [
+        "arbitrum",
+        "hypercore",
+        "hyperevm",
+        "hyperliquid"
+      ],
+      "market_sectors": [
+        {
+          "name": "Derivative exchanges",
+          "id": "derivatives"
+        }
+      ],
+      "links": [
+        {
+          "title": "twitter",
+          "url": "https://twitter.com/HyperliquidX"
+        },
+        {
+          "title": "website",
+          "url": "https://hyperliquid.xyz/"
+        },
+        {
+          "title": "github",
+          "url": "https://github.com/hyperliquid-dex"
+        },
+        {
+          "title": "discord",
+          "url": "https://discord.com/invite/hyperliquid"
+        },
+        {
+          "title": "etherscan",
+          "url": "https://app.hyperliquid.xyz/explorer/token/0x0d01dc56dcaaca66ad901c959b4011ec"
+        }
+      ],
+      "price_data": {
+        "latest": {
+          "value": 71.200719,
+          "date": null
+        },
+        "ath": {
+          "value": 74.391942,
+          "date": "2026-06-03T00:00:00.000Z"
+        },
+        "atl": {
+          "value": 6.512709,
+          "date": "2024-11-28T00:00:00.000Z"
+        }
+      },
+      "business_model": {
+        "project_id": "hyperliquid",
+        "fees_label": "Trading fees",
+        "fees_value": "100",
+        "expense_label": null,
+        "expense_value": null,
+        "revenue_label": "Hyperliquid's share of fees",
+        "revenue_value": "100",
+        "protocol_label": "Connects market makers and traders",
+        "demand_side_label": "Traders",
+        "supply_side_label": "Market makers",
+        "expense_side_label": null,
+        "supply_side_fees_label": "Market makers' share of fees",
+        "supply_side_fees_value": "0"
+      },
+      "description_who": "HYPE tokenholders own, govern, and secure the Hyperliquid network through on-chain governance. The Hyper Foundation oversees community governance and ecosystem growth, ensuring decentralization and alignment of incentives across traders, builders, and validators. Hyperliquid’s investors include Tioga Capital Partners, Collab+Currency, Infinite Capital (San Juan), Optimista Capital, and RockawayX, all holding minority venture capital positions.",
+      "description_what": "Hyperliquid is a layer-one (L1) blockchain purpose-built for trading and decentralized finance. It combines: HyperCore, the high-performance trading engine powering perpetuals, spot markets, and oracles; HyperEVM, a fully compatible smart contract layer enabling developers to build DeFi applications such as lending, vaults, governance, bridges, and stablecoins directly on-chain. Its consensus mechanism, HyperBFT, is a custom algorithm inspired by HotStuff, optimized for throughput (200k+ orders/sec) and deterministic finality. The HYPE token underpins the network, granting holders rights to participate in governance, staking, and securing the protocol — effectively letting users own a share of the Hyperliquid ecosystem.",
+      "description_how": "Hyperliquid generates revenue through on-chain perpetual futures and spot trading, facilitated by its HyperCore execution layer. Every order, trade, and liquidation occurs on-chain with one-block finality, enabling ultra-low latency and transparent trading. Liquidity providers and market makers earn supply-side fees from bid-ask spreads and transaction rebates, while network participants can earn governance and staking rewards via the HYPE token.",
+      "tier": "standard",
+      "flattened_tags": [
+        "blockchains",
+        "blockchains-l1",
+        "derivatives",
+        "exchange"
+      ]
+    },
+    {
+      "name": "Aster",
+      "project_id": "aster",
+      "coingecko_id": null,
+      "symbol": "ASTER",
+      "url": "https://api.tokenterminal.com/v2/projects/aster/metrics",
+      "is_archived": false,
+      "archived_reason": null,
+      "maintenance_reason": null,
+      "products": [],
+      "chains": [
+        "bsc",
+        "offchain"
+      ],
+      "market_sectors": [
+        {
+          "name": "Derivative exchanges",
+          "id": "derivatives"
+        }
+      ],
+      "links": [
+        {
+          "title": "twitter",
+          "url": "https://twitter.com/Aster_DEX"
+        },
+        {
+          "title": "discord",
+          "url": "http://discord.gg/invite/HzrgVv7n64"
+        },
+        {
+          "title": "telegram",
+          "url": "https://t.me/AsterDEX"
+        }
+      ],
+      "price_data": {
+        "latest": {
+          "value": 0.712766,
+          "date": null
+        },
+        "ath": {
+          "value": 2.311004,
+          "date": "2025-09-24T00:00:00.000Z"
+        },
+        "atl": {
+          "value": 0.466758,
+          "date": "2026-02-05T00:00:00.000Z"
+        }
+      },
+      "business_model": {
+        "project_id": "aster",
+        "fees_label": null,
+        "fees_value": null,
+        "expense_label": null,
+        "expense_value": null,
+        "revenue_label": null,
+        "revenue_value": null,
+        "protocol_label": null,
+        "demand_side_label": null,
+        "supply_side_label": null,
+        "expense_side_label": null,
+        "supply_side_fees_label": null,
+        "supply_side_fees_value": null
+      },
+      "description_who": "Aster is a decentralized exchange (DEX) platform operating in the cryptocurrency ecosystem. The organization focuses on providing automated market maker (AMM) functionality for digital asset trading.",
+      "description_what": "Aster operates as a decentralized exchange that enables users to trade cryptocurrencies without intermediaries through automated liquidity pools. The platform leverages blockchain technology to facilitate peer-to-peer trading while maintaining user custody of funds and eliminating the need for traditional order books.",
+      "description_how": "The platform utilizes smart contracts to automate trading processes and manage liquidity pools, where users can provide assets to earn trading fees. Aster generates revenue through transaction fees collected from trades executed on the platform, while liquidity providers earn yields from their contributed assets.",
+      "tier": "basic",
+      "flattened_tags": [
+        "derivatives",
+        "exchange",
+        "rwa-issuers",
+        "stablecoin-issuers"
+      ]
+    }
+  ]
+}

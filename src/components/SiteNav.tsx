@@ -2,7 +2,7 @@ import { Heart } from "lucide-react";
 import type { ReactNode } from "react";
 import { BRAND_ASSETS } from "../lib/brandAssets";
 
-export type SiteView = "dashboard" | "compare" | "support";
+export type SiteView = "dashboard" | "compare" | "data" | "support";
 
 interface SiteNavProps {
   active: SiteView;
@@ -16,6 +16,7 @@ const MAIN_TABS: Array<{
 }> = [
   { id: "dashboard", label: "Stats" },
   { id: "compare", label: "Compare" },
+  { id: "data", label: "Data" },
 ];
 
 export function SiteNav({ active, onNavigate, actions }: SiteNavProps) {

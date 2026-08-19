@@ -27,6 +27,11 @@ export default defineConfig({
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/buyback-api/, ''),
       },
+      '/llama-api': {
+        target: 'https://api.llama.fi',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/llama-api/, ''),
+      },
     },
   },
   preview: {
@@ -50,6 +55,11 @@ export default defineConfig({
         target: 'https://lighter-vs-hyperliquid.vercel.app/api',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/buyback-api/, ''),
+      },
+      '/llama-api': {
+        target: 'https://api.llama.fi',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/llama-api/, ''),
       },
     },
   },

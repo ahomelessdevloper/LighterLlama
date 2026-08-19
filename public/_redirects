@@ -2,3 +2,4 @@
 /hyperliquid-api/*  https://api.hyperliquid.xyz/:splat  200
 /coingecko-api/*  https://api.coingecko.com/api/v3/:splat  200
 /buyback-api/*  https://lighter-vs-hyperliquid.vercel.app/api/:splat  200
+/llama-api/*  https://api.llama.fi/:splat  200

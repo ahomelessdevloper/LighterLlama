@@ -7,6 +7,7 @@ import {
 import { TableScrollZone } from './components/TableScrollZone';
 import { SiteNav, type SiteView } from './components/SiteNav';
 import CompareHub from './pages/CompareHub';
+import DataPage from './pages/DataPage';
 import SupportPage from './pages/SupportPage';
 
 import { getSiteViewFromHash, normalizeSupportHash, siteViewHash } from './lib/siteNav';
@@ -513,6 +514,10 @@ function App() {
     return <CompareHub onNavigate={navigate} />;
   }
 
+  if (view === 'data') {
+    return <DataPage onNavigate={navigate} />;
+  }
+
   if (view === 'support') {
     return <SupportPage onNavigate={navigate} />;
   }
@@ -650,7 +655,7 @@ function App() {
               </span>
             </div>
 
-          <div className="dashboard-markets-toolbar flex flex-col gap-2 p-3 border-b border-[#24263a]">
+          <div className="dashboard-markets-toolbar flex flex-col gap-2 p-3 border-b border-[var(--border)]">
             <div className="relative flex-1">
               <Search className="absolute left-3 top-2.5 h-4 w-4 text-[#71717a]" />
               <input
@@ -758,7 +763,7 @@ function App() {
                       <td className="text-right font-normal tabular-nums text-sm">
                         <div className="w-full min-w-0 whitespace-nowrap">{formatUSD(m.daily_quote_token_volume)}</div>
                         {/* Mini bar like Lighter's Top Markets by OI / Volume by Market visual */}
-                        <div className="vol-mini-bar h-0.5 mt-0.5 bg-[#24263a] rounded overflow-hidden w-full">
+                        <div className="vol-mini-bar h-0.5 mt-0.5 bg-[#1a4a34] rounded overflow-hidden w-full">
                           <div
                             className="vol-mini-bar-fill h-0.5 bg-gradient-to-r from-[#22d3ee] to-[#67e8f9] transition-all"
                             style={{
@@ -793,7 +798,7 @@ function App() {
           </TableScrollZone>
 
           {filteredMarkets.length > 10 && (
-            <div className="p-3 sm:p-4 border-t border-[#24263a] bg-[#10121a] flex justify-center">
+            <div className="p-3 sm:p-4 border-t border-[var(--border)] bg-[#071a10] flex justify-center">
               <button 
                 onClick={() => setShowAllMarkets(!showAllMarkets)} 
                 className="btn btn-sm"
@@ -1066,7 +1071,7 @@ function App() {
                         <div className="font-normal tabular-nums text-sm text-[#e4e4e7]">{formatUSD(m.daily_quote_token_volume)}</div>
                       </div>
                       {/* Visual bar like official Top Markets by OI lists */}
-                      <div className="vol-mini-bar h-1 bg-[#24263a] rounded overflow-hidden">
+                      <div className="vol-mini-bar h-1 bg-[#1a4a34] rounded overflow-hidden">
                         <div 
                           className="vol-mini-bar-fill h-1 bg-gradient-to-r from-[#22d3ee] to-[#67e8f9] transition-all" 
                           style={{ width: `${pct}%` }} 

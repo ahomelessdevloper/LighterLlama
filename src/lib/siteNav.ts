@@ -25,12 +25,14 @@ export function getSiteViewFromHash(hash = window.location.hash): SiteView {
   if (hash === '#support' || hash.startsWith('#support/') || isLegacySupportHash(hash)) {
     return 'support';
   }
+  if (hash === '#data' || hash.startsWith('#data/')) return 'data';
   if (isCompareHash(hash)) return 'compare';
   return 'dashboard';
 }
 
 export function siteViewHash(view: SiteView): string {
   if (view === 'compare') return '#compare/book-depth';
+  if (view === 'data') return '#data';
   if (view === 'support') return '#support';
   return '';
 }

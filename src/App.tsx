@@ -8,6 +8,7 @@ import { TableScrollZone } from './components/TableScrollZone';
 import { SiteNav, type SiteView } from './components/SiteNav';
 import CompareHub from './pages/CompareHub';
 import DataPage from './pages/DataPage';
+import ArbScannerPage from './pages/ArbScannerPage';
 import SupportPage from './pages/SupportPage';
 
 import { getSiteViewFromHash, normalizeSupportHash, siteViewHash } from './lib/siteNav';
@@ -512,6 +513,10 @@ function App() {
  
   if (view === 'compare') {
     return <CompareHub onNavigate={navigate} />;
+  }
+
+  if (view === 'arb') {
+    return <ArbScannerPage onNavigate={navigate} />;
   }
 
   if (view === 'data') {

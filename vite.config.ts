@@ -32,6 +32,31 @@ export default defineConfig({
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/llama-api/, ''),
       },
+      '/binance-fapi': {
+        target: 'https://fapi.binance.com',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/binance-fapi/, '/fapi'),
+      },
+      '/bybit-api': {
+        target: 'https://api.bybit.com',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/bybit-api/, ''),
+      },
+      '/okx-api': {
+        target: 'https://www.okx.com',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/okx-api/, '/api'),
+      },
+      '/bitget-api': {
+        target: 'https://api.bitget.com',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/bitget-api/, ''),
+      },
+      '/aster-api': {
+        target: 'https://fapi.asterdex.com',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/aster-api/, '/fapi'),
+      },
     },
   },
   preview: {
@@ -60,6 +85,31 @@ export default defineConfig({
         target: 'https://api.llama.fi',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/llama-api/, ''),
+      },
+      '/binance-fapi': {
+        target: 'https://fapi.binance.com',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/binance-fapi/, '/fapi'),
+      },
+      '/bybit-api': {
+        target: 'https://api.bybit.com',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/bybit-api/, ''),
+      },
+      '/okx-api': {
+        target: 'https://www.okx.com',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/okx-api/, '/api'),
+      },
+      '/bitget-api': {
+        target: 'https://api.bitget.com',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/bitget-api/, ''),
+      },
+      '/aster-api': {
+        target: 'https://fapi.asterdex.com',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/aster-api/, '/fapi'),
       },
     },
   },

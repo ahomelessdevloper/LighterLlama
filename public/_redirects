@@ -3,3 +3,8 @@
 /coingecko-api/*  https://api.coingecko.com/api/v3/:splat  200
 /buyback-api/*  https://lighter-vs-hyperliquid.vercel.app/api/:splat  200
 /llama-api/*  https://api.llama.fi/:splat  200
+/binance-fapi/*  https://fapi.binance.com/fapi/:splat  200
+/bybit-api/*  https://api.bybit.com/:splat  200
+/okx-api/*  https://www.okx.com/api/:splat  200
+/bitget-api/*  https://api.bitget.com/:splat  200
+/aster-api/*  https://fapi.asterdex.com/fapi/:splat  200
